@@ -32,19 +32,6 @@ Aliasing effects are identified, and the impact of an LPF on the recovered signa
 
 ## Advanced Dynamic Spectral Analysis
 
-In this part of the project, a versatile tool was developed to allow for the custom exploration of signal behavior. The system is designed to be fully interactive and adaptive to user inputs.
 
-### Core Functionalities
-- **User-Defined Signal Construction**: Define any signal by specifying its unique frequency components and amplitudes.
-- **Automated Spectrum Generation**: The program automatically generates the sampled signal spectrum based on the provided parameters.
-- **Aliasing Identification**: It dynamically identifies potential aliasing effects by comparing input frequencies against the sampling frequency ($f_s$).
-- **Simulated Signal Recovery**: Demonstrates the effectiveness of reconstruction by simulating an **Ideal Low-Pass Filter (LPF)** to recover the original waveform.
 
-### Technical Analysis
-- **Adaptive Approach**: The system adapts to any input, providing a real-world look at how aliasing affects different signal types.
-- **Dual-Perspective Visualization**: By visualizing both **bilateral and unilateral spectra**, the analysis highlights the complex interactions between frequency components, sampling constraints, and filtering.
-
-### Why it Matters
-This dynamic tool serves as an interactive environment for exploring signal processing theory. It makes it easy to visualize how sampling parameters impact signal integrity and proves how proper filtering can successfully reconstruct a signal even when the sampling environment changes.
-This exercise provides a complete view of sampling behavior, aliasing symmetry, and amplitude distribution in real signals.
-
+In the second part of the project, the user can define any signal by specifying its frequency components and amplitudes. The program then automatically generates the sampled signal spectrum, identifies potential aliasing based on the sampling frequency, and simulates ideal low-pass filtering to recover the signal. This dynamic approach adapts to any input, showing how aliasing affects different signals and demonstrating the effectiveness of low-pass filters in reconstructing the original waveform. By visualizing bilateral and unilateral spectra, the analysis highlights the interactions between frequency components, sampling constraints, and filtering, making it a versatile tool for exploring signal behavior in a controlled and interactive way.
