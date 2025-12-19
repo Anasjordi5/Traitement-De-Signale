@@ -50,10 +50,6 @@ Le projet traite différents scénarios, notamment :
 1. **Signal à une composante** : Étude du signal $x(t) = 5 \cos(2\pi \cdot 1000 \cdot t)$ avec $f_s = 8000$ Hz, démontrant un cas sans aliasing.
 2. **Signal multi-composantes** : Analyse d'un signal complexe composé de fréquences à 2000, 4000 et 6000 Hz, permettant d'observer l'impact de l'aliasing lorsque la fréquence maximale dépasse $f_s/2$.
 
-## Utilisation
-Pour explorer ces analyses, ouvrez les notebooks Jupyter suivants :
-- `Projet_Traitement_signal.ipynb` : Exercices fondamentaux sur le théorème de Shannon et les répliques spectrales.
-- `Travail_supp.ipynb` : Outil général d'analyse pour n'importe quelle combinaison de fréquences et d'amplitudes.
 
 ## Dépendances
 - Python 3.x
